@@ -15,7 +15,17 @@ public class Main{
                if(primos[i]>=-3 && primos[i]<=3 ){
                    primos[i]=1;
 		}else{
-			
+			if  (primos[i]%2==0){
+		    
+                            primos[i]=0;
+		        }else{
+		    		if (primos[i]%3==0){
+	 	   			primos[i]=0;			
+                   		}else{
+		   			primos[i]=1;
+		   		}
+		  
+		             }
                     }
 	    }
 	    
