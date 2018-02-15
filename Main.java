@@ -29,6 +29,15 @@ public class Main{
                     }
 	    }
 	    
-        
+           for(int i=0;i<4;i+=1){
+              if(primos[i]==1){
+               System.out.println("el numero en la posicion"+ (i+1)+ " es primo");
+              }else{
+               System.out.println("el numero en la posicion"+ (i+1)+" no es primo");
+              }
+
+	   }
+
 	}
+
 }
